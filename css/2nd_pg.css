@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url("../fonts/HelveticaNeue.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+main {
+    background: url("../images/background-2.png");
+    background-size: cover;
+    height: 60em;
+    filter: blur(0);
+}
+
+footer {
+    background-color: #ededed;
+    height: 4em;
+}
+
+p {
+    margin-top: 1em;
+    text-align: center;
+    font-family: "HelveticaNeue", sans-serif;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+
+/* Header */
+
+header {
+    background-color: #e47d04;
+    height: 4em;
+}
+
+.hat {
+    position: absolute;
+    left: 2em;
+
+}
+
+header label {
+    font-family: "HelveticaNeue", sans-serif;
+    color: #f5f5f5;
+}
+
+input {
+    border: 1px solid #b0b0b0;
+    background-color: #eae8e8;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "HelveticaNeue", sans-serif;
+    width: 20em;
+}
+
+input:focus {
+    outline: none;
+}
+
+span {
+    font-family: "HelveticaNeue", sans-serif;
+    color: #f5f5f5;
+    font-size: 1.2em;
+}
+
+.info {
+    position: absolute;
+    right: 10em;
+    border-bottom: 0.05em solid #f5f5f5;
+}
+
+.info img,
+.tc img{
+    position: relative;
+    top: -0.2em;
+}
+
+.tc {
+    position: absolute;
+    right: 3em;
+    border-bottom: 0.05em solid #f5f5f5;
+}
+
+
+
+/* Modal */
+
+.modal-content {
+    margin-top: 25em;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+}
+
+.modal-backdrop {
+
+}
+
+.modal-body {
+    height: 20em;
+}
+
+.modal label {
+    margin-top: 0.4em;
+    font-family: "HelveticaNeue", sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #383838;
+}
+
+.modal input {
+    margin-top: 1em;
+    font-family: "HelveticaNeue", sans-serif;
+    height: 3em;
+    font-size: 1.3em;
+    padding: 0;
+}
+
+.modal input:focus {
+    outline: none;
+}
+
+.modal button {
+    background-color: #ea7f00;
+    color: #ffffff;
+    margin-top: 1em;
+    font-family: "HelveticaNeue", sans-serif;
+    height: 3em;
+    font-size: 1.3em;
+    border-radius: 10px;
+    border: none;
+}
+
+.modal button:focus {
+    outline: none;
+}
+
+.modal p {
+    font-family: "HelveticaNeue", sans-serif;
+    color: #383838;
+    font-size: 0.9em;
+}
+
+.modal .text {
+    text-align: center;
+}
+
+
+
+.test {
+    background-color: #0c5460;
+}
+
+#continue:hover, #confirm:hover {
+    box-shadow: 0 0 15px -5px #000000;
+    cursor: pointer;
+}

@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "Rotonda";
+    src: url("../fonts/Rotonda.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url("../fonts/HelveticaNeue.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+body {
+    background: url("../images/background.png") repeat-y;
+    background-size: cover;
+    background-position-y: 30%;
+}
+
+.container {
+    margin-top: 5%;
+}
+
+
+
+.vpn {
+    margin-top: 1%;
+    position: relative;
+    left: -1%;
+}
+
+.form {
+    background-color: #f6f6f6;
+    margin-top: 4%;
+    border-radius: 5%;
+    box-shadow: 0 0 30px -10px #000000;
+}
+
+.block {
+    margin-top: 0.5em;
+}
+
+
+
+label {
+    font-weight: bold;
+    font-size: 0.8em;
+    font-family: "Rotonda", sans-serif;
+}
+
+input {
+    width: 100%;
+    border: 2px solid #b0b0b0;
+    border-radius: 10px;
+    background-color: #eae8e8;
+    text-align: center;
+    font-family: "HelveticaNeue", sans-serif;
+}
+
+.internet {
+    position: absolute;
+    width: 1em;
+    top: 0.05em;
+    left: 1.3em;
+}
+
+.btn {
+    background-color: #d56103;
+    position: absolute;
+    width: 1.5em;
+    height: 1.4em;
+    top: 0.24em;
+    right: 1.35em;
+}
+
+.search {
+    position: absolute;
+    width: 1em;
+    top: 0.03em;
+    left: 1.4em;
+}
+
+.arrow {
+    position: absolute;
+    right: 0.3em;
+    top: 0.2em;
+}
+
+
+
+textarea {
+    margin-top: 0.5em;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+p {
+    font-size: 0.9em;
+    font-family: "HelveticaNeue", sans-serif;
+    text-align: center;
+}
+
+.text {
+    padding-top: 1em;
+}
+
+
+
+input:focus {
+    outline: none;
+}
+
+
+.icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cell {
+    border-radius: 10px;
+    text-align: center;
+    background-color: #eae8e8;
+    overflow: hidden;
+}
+
+.cell:hover {
+    box-shadow: 0 0 15px -5px #000000;
+    cursor: pointer;
+}
+
+.daw {
+    width: 1.2em;
+    position: absolute;
+    bottom: 2em;
+    right: 0.35em;
+}
+
+span {
+    font-family: "HelveticaNeue", sans-serif;
+    display: block;
+    font-size: 1em;
+    position: absolute;
+    bottom: 0.4em;
+    left: 1em;
+}
+
+.table-row {
+    margin-top: 1em;
+    height: 5rem;
+}
+
+.table {
+    overflow: scroll;
+}
