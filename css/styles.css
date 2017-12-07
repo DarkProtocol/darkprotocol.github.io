@@ -114,45 +114,54 @@ input:focus {
 }
 
 
-.icon {
-    position: absolute;
-    top: 0;
-    left: 0;
+.site-block {
+    margin-top: 1em;
+    border-radius: 5px;
+    background-color: #ccc;
 }
 
-.cell {
-    border-radius: 10px;
-    text-align: center;
-    background-color: #eae8e8;
-    overflow: hidden;
-}
-
-.cell:hover {
+.site-block:hover {
     box-shadow: 0 0 15px -5px #000000;
     cursor: pointer;
 }
 
-.daw {
-    width: 1.2em;
-    position: absolute;
-    bottom: 2em;
-    right: 0.35em;
+.site-block .images {
+    position: relative;
 }
 
-span {
+.site-block .icon {
+    width: 100%;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.site-block .icon img{
+    width: 100%;
+    display: block;
+}
+
+.site-block .daw {
+    position: absolute;
+    width: 10%;
+    top: 70%;
+    right: 10%;
+}
+
+.site-block .daw img{
+    width: 100%;
+    display: block;
+}
+
+
+.site-block span {
     font-family: "HelveticaNeue", sans-serif;
     display: block;
     font-size: 1em;
-    position: absolute;
-    bottom: 0.4em;
-    left: 1em;
-}
-
-.table-row {
     margin-top: 1em;
-    height: 5rem;
+    text-align: center;
 }
 
-.table {
-    overflow: scroll;
-}
+
+
+

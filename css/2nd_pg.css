@@ -107,6 +107,9 @@ span {
 }
 
 .modal label {
+    display: block;
+    width: 100%;
+    text-align: center;
     margin-top: 0.4em;
     font-family: "HelveticaNeue", sans-serif;
     font-size: 1.2em;
@@ -160,4 +163,8 @@ span {
 #continue:hover, #confirm:hover {
     box-shadow: 0 0 15px -5px #000000;
     cursor: pointer;
+}
+
+.modal-dialog {
+    max-width: 80% !important;
 }
