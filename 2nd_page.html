@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/2nd_pg.css">
+</head>
+
+<body>
+
+
+    <!-- Modal page 1 -->
+    <div id="start" class="modal fade" data-backdrop="static">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form role="form" class="row justify-content-center">
+
+                        <div class="col-12">
+                            <div class="row justify-content-center">
+
+                                <label for="mobile">To get access enter your mobile number</label>
+                                <input id="mobile" type="tel" placeholder="+0-(000)-000-00-00">
+                                <button type="button" class="col-7" id="continue">Continue</button>
+                                <div class="col-12 text">
+                                    <p>This is a subscription service. By clicking on the continue buttton you are agreeing to enter a subscription service. You will receive access to the member zone. Data charges may apply</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal page 2 -->
+    <div id="pinModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form role="form" class="row justify-content-center">
+
+                        <div class="col-12">
+                            <div class="row justify-content-center">
+
+                                <label for="inputPin">Please, enter a PIN code from SMS</label>
+                                <input id="inputPin" type="text" placeholder="-  -  -  -" maxlength="4" inputmode="numeric">
+                                <button type="button" class="col-7" id="confirm">Confirm</button>
+                                <div class="col-12 text">
+                                    <p>This is a subscription service. By clicking on the continue buttton you are agreeing to enter a subscription service. You will receive access to the member zone. Data charges may apply</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Site -->
+
+    <header class="row align-items-center justify-content-center">
+        <div class="hat"><img src="images/hat.png" class="img-fluid" width="40em"></div>
+        <form role="form">
+            <label for="search">Enter URL</label>
+            <input type="search" id="search">
+        </form>
+        <div class="info">
+            <img src="images/info.png" width="20em">
+            <span>info</span>
+        </div>
+        <div class="tc">
+            <img src="images/shapeTC.png" width="20em">
+            <span>t&c</span>
+        </div>
+
+    </header>
+
+    <main class="row" id="main"></main>
+
+    <footer class="row">
+        <div class="col-12"><p>You are using subscription based service with recurring billing. Additional data charges may apply.</p></div>
+    </footer>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+            integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/maskedinput.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
